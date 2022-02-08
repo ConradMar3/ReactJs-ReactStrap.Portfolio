@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav } from 'react-bootstrap'
+import { Nav } from 'react-bootstrap';
+import Header from 'Header.js'
 
 class App extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ class App extends Component {
     render() {
       return(
         <div>
-        <Nav />
+        <Header />
         </div>
     );
   }
